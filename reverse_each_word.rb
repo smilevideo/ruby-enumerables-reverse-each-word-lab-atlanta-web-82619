@@ -1,4 +1,5 @@
 def reverse_each_word (str)
   ary = str.split(' ')
+  new = []
   ary.each { |word| 
-    word = word.reverse 
+    new.push(word.reverse)

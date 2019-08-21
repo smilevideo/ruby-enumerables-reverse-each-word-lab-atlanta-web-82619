@@ -4,6 +4,6 @@ def reverse_each_word (str)
     word.reverse
   }
   
-  new.join(' ')
-  return new
+  str = new.join(' ')
+  return str
 end

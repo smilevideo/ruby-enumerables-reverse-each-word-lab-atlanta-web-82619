@@ -1,7 +1,7 @@
 def reverse_each_word (str)
   ary = str.split(' ')
   new = []
-  ary.each { |word| 
+  ary.collect { |word| 
     new.push(word.reverse)
   }
   

@@ -4,5 +4,6 @@ def reverse_each_word (str)
     word.reverse
   }
   
+  ary.join(' ')
   return ary
 end
